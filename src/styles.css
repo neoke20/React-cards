@@ -1,0 +1,53 @@
+body {
+  background-color: #eaf1fa;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.card {
+  background-color: #13c4a3;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  border: 1px solid black;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 20px auto 20px auto;
+  width: 300px;
+  box-shadow: 2px 2px 4px rgb(100, 100, 100);
+}
+.card:hover {
+  background-color: #11b193;
+  box-shadow: 4px 4px 4px rgb(100, 100, 100);
+  transition: all 0.5s;
+}
+form {
+  margin: 40px 0;
+}
+input,
+select {
+  margin: 2px 8px;
+  padding: 8px 4px;
+}
+#submit-button {
+  border-radius: 5px;
+  background-color: #485d6b;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+}
+#submit-button:hover,
+.button:hover {
+  cursor: pointer;
+  background-color: rgb(84, 108, 124);
+  transition: background-color 0.5s;
+}
+.button {
+  text-decoration: none;
+  border: solid 1px #04251f;
+  background-color: #485d6b;
+  padding: 8px;
+  border-radius: 4px;
+  color: white;
+  width: 200px;
+}
